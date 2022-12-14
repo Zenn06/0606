@@ -24,7 +24,7 @@ class MyClient(discord.Client):
         #    print()
 #8วย
         # print(message)
-        
+        #add commit push
 
 intents = discord.Intents.default()
 intents.message_content = True
