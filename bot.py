@@ -22,7 +22,7 @@ class MyClient(discord.Client):
            seesion.append(ob)
            check__(seesion,message.author.id)
         #    print()
-
+#8วย
         # print(message)
         
 
