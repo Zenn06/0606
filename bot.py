@@ -3,6 +3,7 @@
 import discord
 import json
 from fun_class import check__
+from fun_class import token
 class MyClient(discord.Client):
     global seesion,fun_c
     seesion = []
@@ -30,4 +31,5 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTA1MDQwMjI5OTg3ODU5MjU2Mw.GdQL5t.zqbfrzLNuppArENvlUraXpBw0JLMniHkBlthiU')
+client.run(token().token)
+# print(token())
